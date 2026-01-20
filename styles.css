@@ -8,18 +8,20 @@
 }
 
 /* ========================= BODY ========================= */
+
 body {
     background: linear-gradient(180deg, #f4f7fb 0%, #eaf2ff 100%);
     color: #0f172a;
-    line-height: 1.6;
+    line-height: 1.45;
 }
+
 /* ========================= HERO ========================= */
 
 .hero {
     position: relative;
     overflow: hidden;
-    min-height: 100vh;
-    padding: 40px 20px;
+    min-height: 85vh;
+    padding: 30px 20px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,33 +29,33 @@ body {
     text-align: center;
 
     background: linear-gradient(135deg,
-        #06152b 0%,
-        #0a2450 45%,
-        #0d3b7a 100%);
+    #0a2a5a 0%,
+    #0d3f8f 45%,
+    #1565c0 100%);
+
 }
 
 .hero::after {
     content: "";
     width: 100%;
-    height: 80px;
-    background: linear-gradient(to bottom, #0d3b7a, transparent);
+    height: 28px;
+    background: linear-gradient(to bottom, rgba(13,59,122,.7), transparent);
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-
 .hero img {
-    max-width: 520px;
+    max-width: 480px;
     width: 100%;
     margin-bottom: 15px;
-    filter: drop-shadow(0 15px 35px rgba(0,0,0,.6));
+    filter: drop-shadow(0 12px 28px rgba(0,0,0,.6));
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     color: #dbeafe;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 
 /* ========================= BOTÓN ========================= */
@@ -66,41 +68,39 @@ body {
     color: #1a1a1a;
     font-weight: 700;
     text-decoration: none;
-    box-shadow: 0 12px 28px rgba(255,193,7,.45);
+    box-shadow: 0 8px 20px rgba(255,193,7,.35);
     transition: all .25s ease;
 }
 
 .btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 18px 40px rgba(255,193,7,.55);
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(255,193,7,.45);
 }
 
 /* ========================= SECCIONES ========================= */
 
 .section {
     max-width: 1100px;
-    margin: 70px auto;
-    padding: 45px;
+    margin: 45px auto;
+    padding: 40px;
     border-radius: 18px;
-    background: #ffffff;
-    box-shadow: 0 18px 45px rgba(13,59,122,.12);
-    border-top: 5px solid #0d3b7a;
+
+    background: linear-gradient(180deg, #ffffff, #fff9e6);
+    box-shadow: 0 15px 35px rgba(13,59,122,.1);
+    border-top: 4px solid #ffd54f;
 }
 
-
 .section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 18px;
+    font-size: 1.75rem;
+    margin-bottom: 16px;
     color: #0d3b7a;
 }
 
-/* Variante azul suave */
+/* Variante suave */
 
 .section.alt {
-    background: linear-gradient(135deg, #dbeafe, #f8fbff);
-    border-top: 5px solid #ffd54f;
+    background: linear-gradient(180deg, #ffffff, #fff3cc);
 }
-
 
 /* ========================= SERVICIOS ========================= */
 
@@ -112,16 +112,17 @@ body {
 }
 
 .services li {
-    background: linear-gradient(180deg, #ffffff, #f1f7ff);
+    background: linear-gradient(180deg, #ffffff, #fff3cc);
     padding: 20px;
     border-radius: 16px;
-    border: 1px solid rgba(13,59,122,.08);
+    border-left: 4px solid #ffd54f;
+    box-shadow: 0 10px 25px rgba(13,59,122,.12);
     transition: all .25s ease;
 }
 
 .services li:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 15px 35px rgba(13,59,122,.18);
+    transform: translateY(-3px);
+    box-shadow: 0 16px 35px rgba(13,59,122,.18);
 }
 
 /* ========================= PASOS ========================= */
@@ -131,7 +132,7 @@ body {
 }
 
 .steps li {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 
@@ -142,7 +143,7 @@ body {
 }
 
 .contact p {
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 1.05rem;
 }
 
@@ -150,13 +151,8 @@ body {
 
 footer {
     text-align: center;
-    padding: 30px 10px;
+    padding: 28px 10px;
     background: linear-gradient(135deg, #06152b, #0a2450);
-}
-
-.footertext {
-    font-size: .9rem;
-    color: #e2ecff;
 }
 
 .footertext {
@@ -173,8 +169,8 @@ footer {
     }
 
     .section {
-        padding: 28px;
-        margin: 40px 12px;
+        padding: 26px;
+        margin: 28px 12px;
     }
 
     .btn {
