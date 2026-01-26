@@ -16,7 +16,8 @@
 /* ========================= BODY ========================= */
 
 body {
-    background: linear-gradient(180deg, #f4f7fb 0%, #eaf2ff 100%);
+
+    background:linear-gradient(#FFFFE0,white,#FFFFE0 );
     color: #0f172a;
     line-height: 1.45;
 }
@@ -135,6 +136,7 @@ body {
 .contact p {
     margin-top: 8px;
     font-size: 1.05rem;
+    al:center;
 }
 
 /* ========================= FOOTER ========================= */
@@ -153,10 +155,11 @@ footer {
 
 /* ========================= RESPONSIVE ========================= */
 
-@media (max-width: 768px) {
+@media (max-width: 100%) {
 
     .hero img {
-        max-width: 260px;
+        min-height: 100%;
+        max-width: 100%;
     }
 
     .section {
@@ -169,3 +172,9 @@ footer {
         max-width: 280px;
     }
 }
+    .li-img {
+
+        width: 100%;
+        height: auto;
+        
+    }
