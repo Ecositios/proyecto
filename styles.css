@@ -20,11 +20,11 @@ body {
     color: #0f172a;
     line-height: 1.45;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    flex-direction: column;/**Hace que los elementos se apilen uno despues del otro**/
+    display: flex; /**Cambia como se comportan los elementos**/
 }
 #content {
-    flex: 1;
+    flex: 1; /**ocupa todo el espacio disponible**/
 }
 
 
