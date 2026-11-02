@@ -3,105 +3,277 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ECO Sitios | Sitios web económicos</title>
+    <meta
+        name="description"
+        content="Diseño de sitios web, tiendas WooCommerce y soluciones digitales adaptadas a tu negocio y presupuesto. ECO Sitios."
+    >
+    <meta name="theme-color" content="#101c30">
+
+    <title>ECO Sitios | Soluciones web para tu negocio</title>
+
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="favicon.png">
-
 </head>
 
 <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-<nav class="menubar">
-    <ul class="menu">
-        <li  class="li-logo">
-            <img src="Eco-sitios.png" alt="#">
-        </li>
-        <li  class="li-item">
-            ¿Quienes somos?
-        </li>
-        <li class="li-item">
-            Contacto
-        </li class="li-item">
-        <li class="li-item">
-            <a href="#" data-page="aprende.html">Aprende</a>
-        </li>
+    <header class="site-header">
+        <nav class="navigation container" aria-label="Navegación principal">
+            <a class="brand" href="./" aria-label="ECO Sitios, inicio">
+                <img src="Eco-sitios.png" alt="ECO Sitios" width="160" height="48">
+            </a>
 
-    </ul>
-</nav>
-
-<div id="content">
-
-    <header class="hero">
-        <img src="logo brillante.png" alt="ECO Sitios Logo">
-        <p><strong>Económico, sencillo, funcional</strong></p>
-        <a href="#contacto" class="btn">Solicitar contacto</a>
+            <ul class="menu">
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="aprende.html">Aprende</a></li>
+                <li>
+                    <a class="menu-contact" href="#contacto">Conversemos</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="section">
-        <h2 class="center">¿Qué ofrecemos?</h2>
+    <main id="contenido">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-layout">
+                <div class="hero-content">
+                    <p class="eyebrow">Diseño web y soluciones digitales</p>
 
-        <ul class="services">
-            <li>
-                <img class="li-img" src="MP-ico.png" >
-                ✔ Sitios webs a medida y adaptados a tu presupuesto</li>
-            <li>
-                <img class="li-img" src="WOO-ico.png">     
-                ✔ Tiendas WooCommerce sencillas de administrar</li>
-            <li>
-                <img class="li-img" src="HD-ico.png" >
-                ✔ Gestión de tu hosting y dominio</li>
-            <li>
-                <img class="li-img" src="SM-ICO.png" >
-                ✔ Soporte y mantenimiento</li>
-            <li>
-                <img class="li-img" src="SE-ICO.png" >
-                ✔ Soluciones digitales para emprendedores</li>
-            <li>
-                <img class="li-img" src="DB-ICO.png" >
-                ✔ Paneles administrativos y reportes de negocio</li>
-            <li>
-                <img class="li-img" src="BD-ICO.png" >
-                ✔ Integración con bases de datos</li>
-            <li>
-                <img class="li-img" src="RL-ICO.png" >
-                ✔ Diseño de tu logo e imagen digital</li>
-            <li>
-                <img class="li-img" src="AS-ICO.png" >
-                ✔ Asesoramiento</li>
-        </ul>
-    </section>
+                    <h1 id="hero-title">
+                        Tu negocio merece
+                        <span>un buen sitio web.</span>
+                    </h1>
 
-    <section class="section alt">
-        <h2 class="center">¿A quiénes estamos dirigidos?</h2>
+                    <p class="hero-description">
+                        Creamos sitios claros, funcionales y fáciles de usar.
+                        Nos adaptamos a lo que necesitas y al presupuesto
+                        que tienes.
+                    </p>
 
-        <ul class="services">
-            <li>✔ Pequeños emprendedores con bajo presupuesto</li>
-            <li>✔ Negocios que necesitan automatizar procesos</li>
-            <li>✔ Estudiantes y profesionales que requieren apoyo técnico</li>
-        </ul>
-    </section>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#contacto">
+                            Cuéntanos tu proyecto
+                            <span aria-hidden="true">↗</span>
+                        </a>
 
-    <section class="section alt">
-        <h2 class="center">¿Por qué ECO Sitios?</h2>
+                        <a class="button button-secondary" href="#servicios">
+                            Explorar servicios
+                        </a>
+                    </div>
 
-        <ul class="services">
-            <li class="center">Soluciones que se adaptan a tu presupuesto</li>
-            <li class="center">Te acompañamos de principio a fin — sin bots, sin tickets</li>
-        </ul>
-    </section>
+                    <p class="hero-note">
+                        Económico, sencillo, funcional.
+                    </p>
+                </div>
 
-    <section id="contacto" class="section alt center">
-        <h2>Contacto</h2>
-        <p>Escríbenos para cotizar tu sitio</p>
-        <p><strong>Email:</strong> ecositios.contacto@gmail.com</p>
-        <p><strong>WhatsApp:</strong> +56 9 XXXXXXXX</p>
-    </section>
-</div>
+                <div class="hero-visual">
+                    <img
+                        class="hero-logo"
+                        src="logo brillante.png"
+                        alt="ECO Sitios"
+                        width="520"
+                        height="360"
+                        fetchpriority="high"
+                    >
+                    <div class="visual-caption">
+                        <span class="status-dot" aria-hidden="true"></span>
+                        Ideas que toman forma en la web
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<footer>
-    <p class="footertext">© 2026 ECO Sitios — Sitios web económicos</p>
-</footer>
+        <section class="section" id="servicios" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Lo que hacemos</p>
+                    <h2 id="services-title">
+                        Soluciones para dar tu próximo paso.
+                    </h2>
+                    <p>
+                        Desde tu primera página hasta herramientas que
+                        simplifican el trabajo de tu negocio.
+                    </p>
+                </div>
 
-<script src="script.js"></script>
+                <ul class="services">
+                    <li class="service-card">
+                        <img src="MP-ico.png" alt="" loading="lazy" width="64" height="64">
+                        <h3>Sitios web a medida</h3>
+                        <p>
+                            Una página que presenta tu negocio, explica lo
+                            que ofreces y facilita que te contacten.
+                        </p>
+                    </li>
+
+                    <li class="service-card">
+                        <img src="WOO-ico.png" alt="" loading="lazy" width="64" height="64">
+                        <h3>Tiendas WooCommerce</h3>
+                        <p>
+                            Tu catálogo y tus ventas en un solo lugar,
+                            con una tienda sencilla de administrar.
+                        </p>
+                    </li>
+
+                    <li class="service-card">
+                        <img src="HD-ico.png" alt="" loading="lazy" width="64" height="64">
+                        <h3>Hosting y dominio</h3>
+                        <p>
+                            Te ayudamos con la dirección de tu sitio,
+                            su alojamiento y su configuración.
+                        </p>
+                    </li>
+
+                    <li class="service-card">
+                        <img src="SM-ICO.png" alt="" loading="lazy" width="64" height="64">
+                        <h3>Soporte y mantenimiento</h3>
+                        <p>
+                            Apoyo técnico, actualizaciones y ajustes
+                            para mantener tu sitio al día.
+                        </p>
+                    </li>
+
+                    <li class="service-card">
+                        <img src="SE-ICO.png" alt="" loading="lazy" width="64" height="64">
+                        <h3>Soluciones digitales</h3>
+                        <p>
+                            Herramientas para simplificar tareas y
+                            automatizar procesos de tu emprendimiento.
+                        </p>
+                    </li>
+
+                    <li class="service-card">
+                        <img src="DB-ICO.png" alt="" loading="lazy" width="64" height="64">
+                        <h3>Paneles y reportes</h3>
+                        <p>
+                            Información organizada para consultar
+                            resultados y gestionar tu negocio.
+                        </p>
+                    </li>
+
+                    <li class="service-card">
+                        <img src="BD-ICO.png" alt="" loading="lazy" width="64" height="64">
+                        <h3>Bases de datos</h3>
+                        <p>
+                            Conectamos y organizamos los datos que
+                            necesitan tus herramientas.
+                        </p>
+                    </li>
+
+                    <li class="service-card">
+                        <img src="RL-ICO.png" alt="" loading="lazy" width="64" height="64">
+                        <h3>Identidad digital</h3>
+                        <p>
+                            Diseño de logo y una imagen visual
+                            coherente para presentar tu marca.
+                        </p>
+                    </li>
+
+                    <li class="service-card">
+                        <img src="AS-ICO.png" alt="" loading="lazy" width="64" height="64">
+                        <h3>Asesoría</h3>
+                        <p>
+                            Orientación para elegir las herramientas
+                            y el camino que mejor se ajusten a ti.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section about" id="nosotros" aria-labelledby="about-title">
+            <div class="container about-layout">
+                <div class="section-heading">
+                    <p class="eyebrow">Nuestra forma de trabajar</p>
+                    <h2 id="about-title">
+                        Tecnología cercana.<br>
+                        Soluciones a tu medida.
+                    </h2>
+                    <p>
+                        ECO Sitios está pensado para emprendedores,
+                        pequeños negocios, estudiantes y profesionales
+                        que necesitan apoyo técnico y un trato directo.
+                    </p>
+                </div>
+
+                <ol class="steps">
+                    <li>
+                        <span class="step-number" aria-hidden="true">01</span>
+                        <div>
+                            <h3>Primero, te escuchamos</h3>
+                            <p>
+                                Conversamos sobre tu idea, tus necesidades
+                                y el presupuesto disponible.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <span class="step-number" aria-hidden="true">02</span>
+                        <div>
+                            <h3>Definimos lo necesario</h3>
+                            <p>
+                                Acordamos el alcance y una propuesta clara
+                                antes de comenzar.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <span class="step-number" aria-hidden="true">03</span>
+                        <div>
+                            <h3>Te acompañamos</h3>
+                            <p>
+                                Construimos contigo y te orientamos
+                                para que puedas usar tu solución.
+                            </p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contacto" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="contact-panel">
+                    <div>
+                        <p class="eyebrow">Hablemos de tu idea</p>
+                        <h2 id="contact-title">¿Qué necesitas crear?</h2>
+                        <p>
+                            Cuéntanos sobre tu negocio y lo que te gustaría
+                            hacer. Podemos empezar por algo sencillo.
+                        </p>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a
+                            class="button button-primary"
+                            href="mailto:ecositios.contacto@gmail.com"
+                        >
+                            Escríbenos
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a
+                            class="email-link"
+                            href="mailto:ecositios.contacto@gmail.com"
+                        >
+                            ecositios.contacto@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-layout">
+            <p>© 2026 ECO Sitios</p>
+            <p>Económico, sencillo, funcional.</p>
+            <a href="#contenido">Volver arriba ↑</a>
+        </div>
+    </footer>
 </body>
 </html>
